@@ -76,6 +76,7 @@ const ActiveEdit = () => {
 
   const handleCloseForm = () => {
     setIsOpen(false); // Close the ExersizeForm
+    
   };
   useEffect(() => {
     dispatch(fetchPlansData({ trainee_id, day, token }));
