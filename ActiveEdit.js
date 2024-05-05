@@ -113,7 +113,7 @@ const ActiveEdit = () => {
             className="d-flex align-items-center  mb-3"
             key={index}
           >
-            <div className="left-side d-flex flex-column ">
+            {/* <div className="left-side d-flex flex-column ">
               <div className="buttons d-flex gap-2 mb-3">
                 <img
                   src={editBtn}
@@ -148,7 +148,7 @@ const ActiveEdit = () => {
                   }}
                 />
               </div>
-            </div>
+            </div> */}
             <div className="gif-data">
               <div className="gif-txt d-flex flex-column">
                 <label>Name of exercise </label>
